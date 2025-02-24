@@ -5,7 +5,6 @@ import Home from './pages/Home'
 import History from './pages/History'
 import Haeder from './components/Haeder'
 import Footer from './components/Footer'
-import Athulya from './pages/Athulya'
 
 function App() {
  
@@ -20,7 +19,6 @@ function App() {
         <Route path='/' element={<Landing/>}/>
         <Route path='/home' element={<Home/>} />
         <Route path='/history' element={<History/>} />
-        <Route path='/new' element={<Athulya/>} />
       </Routes>
 
 
